@@ -25,5 +25,20 @@ export const styles = () => createStyles({
   },
   TimelineSeparator: {
     paddingLeft: '15px'
-  }
+  },
+  ProfileTimelineContent: {
+    marginTop: '2px',
+    marginBottom: '12px',
+  },
+  ProfileTimelineContentItem: {
+
+  }, 
+  ProfileTimelineContentItemText: {
+    fontSize: '13.5px',
+    color: '#787878',
+    fontWeight: 400
+  },
+  ProfileTimelineContentItemTitle: {
+    color: 'black',
+  },
 })
