@@ -1,0 +1,7 @@
+.MuiTimelineItem-root {
+  min-height: 0px !important;
+}
+
+.MuiTimelineItem-missingOppositeContent:before {
+  display: none;
+}
