@@ -1,0 +1,25 @@
+.btn_icon_container {
+  color: black;
+  background: #fff;
+  border-radius: 50px;
+  height: 27px;
+  width: 27px;
+  line-height: 29px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_icon_container > .MuiSvgIcon-root {
+  font-size: 16px;
+}
+
+.btn-text {
+  font-size: 14px;
+  text-transform: none;
+  text-align: center;
+  width: 100%;
+  margin-right: 5px;
+  margin-left: 5px;
+}

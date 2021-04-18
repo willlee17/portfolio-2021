@@ -6,27 +6,32 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Portfolio from './pages/Portfolio/Portfolio';
 import Resume from './pages/Resume/Resume';
+import { styles } from './containers/portfolioStyles';
+import { withStyles } from '@material-ui/core/styles';
+import classNames from 'classnames';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-function App() {
+const App = ({ classes }) => {
   return (
-    <Container>
-      <Grid container>
+    <Container className={classNames(classes.AppContainer, 'app-container')}>
+      <Grid container spacing={7}>
         <Grid item lg={3} md={4} sm={12} xs={12}>
           <Profile />
         </Grid>
-        <Grid item xs style={{backgroundColor: 'red'}}>
-          <Header />
+        <Grid item xs>
           <Router>
-            <Switch>
-              <Route exact path='/'>
-               <Resume />
-              </Route>
-              <Route path='/portfolio'>
-               <Portfolio />
-              </Route>
-            </Switch>
+            <Header />
+            <div className={'main-content container-shadow'}>
+              <Switch>
+                <Route exact path='/'>
+                <Resume />
+                </Route>
+                <Route path='/portfolio'>
+                <Portfolio />
+                </Route>
+              </Switch>
+            </div>
           </Router>
           <Footer />
         </Grid>
@@ -35,4 +40,4 @@ function App() {
   );
 }
 
-export default App;
+export default withStyles(styles)(App);

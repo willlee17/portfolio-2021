@@ -12,6 +12,9 @@ import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
+import CustomButton from '../Button/Button';
+import GetAppIcon from '@material-ui/icons/GetApp';
+
 
 
 const CustomTimelineItem = ({title, text, link, classes}) => {
@@ -50,7 +53,11 @@ const Profile = ({ classes }) => {
           ))}
         </CustomTimeline>
         <br />
-        <button>My button</button>
+
+        <div className="button-container">
+         <CustomButton text={'Download CV'} icon={<GetAppIcon />}/>
+        </div>
+        
       </div>
     </div>
   )
