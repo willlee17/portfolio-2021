@@ -11,7 +11,7 @@ export const styles = () => createStyles({
     paddingTop: '7px',
   },
   TimelineFirstItem: {
-    minHeight: '80px',
+    minHeight: '80px !important',
   },
   TimelineDotHeader: {
     backgroundColor: '#ffc500',
@@ -21,20 +21,22 @@ export const styles = () => createStyles({
   Icon: {
     fontSize: 'small',
   },
+
+  // remaining items
   TimelineDot: {
     borderColor: '#ffc500',
     color: 'black',
     padding: '2px',
   },
   TimelineSeparator: {
-    paddingLeft: '15px'
+    paddingLeft: '20px'
   },
   ProfileTimelineContent: {
-    marginTop: '2px',
-    marginBottom: '12px',
+    paddingTop: '0px',
+    marginBottom: '2px',
   },
   ProfileTimelineContentItem: {
-
+    paddingTop: '4px',
   }, 
   ProfileTimelineContentItemText: {
     fontSize: '13.5px',
@@ -44,6 +46,9 @@ export const styles = () => createStyles({
   ProfileTimelineContentItemTitle: {
     color: 'black',
   },
+
+
+  // Button 
   CustomButton: {
     backgroundColor: '#ffc500',
     fontSize: '14px',
@@ -55,8 +60,15 @@ export const styles = () => createStyles({
     minWidth: '100px',
     outline: 'none'
   },
-  Section: {
 
+
+  // Resume Page
+  ResumeTimeline: {
+    margin: '25px',
+    width: '95%',
+  },
+  Section: {
+    // border: '1px solid black'
   }, 
   SectionTitle: {
     position: 'relative',
@@ -84,5 +96,21 @@ export const styles = () => createStyles({
     fontSize: '14px',
     lineHeight: '25px',
     color: 'darkslategray'
+  },
+
+
+  // Resume
+  ResumeTitle: {
+    marginTop: '-4px',
+    fontSize: '16px',
+    fontWeight: 500
+  },
+  ResumeDate: { 
+    color: 'darkslategray',
+  },
+  ResumeDescription: {
+    color: 'gray',
+    fontSize: '12px',
+    marginTop: '6px',
   }
 })

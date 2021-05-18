@@ -55,7 +55,7 @@ const Profile = ({ classes }) => {
         <br />
 
         <div className="button-container">
-         <CustomButton text={'Download CV'} icon={<GetAppIcon />}/>
+          <CustomButton text={'Download CV'} icon={<GetAppIcon />}/>
         </div>
         
       </div>

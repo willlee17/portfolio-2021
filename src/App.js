@@ -25,10 +25,10 @@ const App = ({ classes }) => {
             <div className={'main-content container-shadow'}>
               <Switch>
                 <Route exact path='/'>
-                <Resume />
+                  <Resume />
                 </Route>
                 <Route path='/portfolio'>
-                <Portfolio />
+                  <Portfolio />
                 </Route>
               </Switch>
             </div>

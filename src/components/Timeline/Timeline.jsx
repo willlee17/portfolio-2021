@@ -19,8 +19,8 @@ const CustomTimeline = ({ title, icon, children, classes }) => {
   return (
      <Timeline className={classes.Timeline}>
        {/* Item Header */}
-      <TimelineItem>
-        <TimelineSeparator className={classes.TimelineFirstItem}>
+      <TimelineItem className={classes.TimelineFirstItem}>
+        <TimelineSeparator>
           <TimelineDot className={classes.TimelineDotHeader}>{icon}</TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
@@ -44,7 +44,7 @@ const CustomTimeline = ({ title, icon, children, classes }) => {
 
 export const CustomTimelineSeparator = ({ classes }) => (
   <TimelineSeparator className={classes.TimelineSeparator}>
-    <TimelineDot variant="outline" className={classes.TimelineDot}/>
+    <TimelineDot variant="outlined" className={classes.TimelineDot}/>
     <TimelineConnector />
   </TimelineSeparator>
 )

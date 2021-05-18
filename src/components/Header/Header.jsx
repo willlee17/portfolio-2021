@@ -8,7 +8,7 @@ import CustomButton from '../../components/Button/Button';
 import './Header.css'
 
 const Header = (props) => {
-  const pathName = props?.location?.pathname;
+  const pathName = props.location.pathname
 
   return (
     <Navbar expand="lg" sticky='top' className='header'>
