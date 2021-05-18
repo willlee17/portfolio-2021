@@ -1,5 +1,9 @@
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import WebOutlinedIcon from '@material-ui/icons/WebOutlined';
+import DashboardOutlinedIcon from '@material-ui/icons/DashboardOutlined';
+import BuildOutlinedIcon from '@material-ui/icons/BuildOutlined';
+import AccountTreeOutlinedIcon from '@material-ui/icons/AccountTreeOutlined';
 
 export default {
   name: 'William Lee', 
@@ -45,6 +49,52 @@ export default {
       title: 'University of Pennsylvania',
       date: '08/2014 - 05/2018',
       description: "Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built UI Built "
+    }
+  ],
+
+  services: [
+    {
+      title: 'Web Devevlopment',
+      description: 'I have been a badass dev for 2years',
+      icon: <WebOutlinedIcon />
+    },
+    {
+      title: 'UI / UX Design',
+      description: 'I have been a badass designer for 2years',
+      icon: <DashboardOutlinedIcon />
+    },
+    {
+      title: 'Testing',
+      description: 'I have been a badass tester for 2years',
+      icon: <BuildOutlinedIcon />
+    },
+    {
+      title: 'Frontend Architecture',
+      description: 'I have been a badass architect for 2years',
+      icon: <AccountTreeOutlinedIcon />
+    },
+  ],
+
+  skills: [
+    {
+      title: "FRONT-END", 
+      description: [ "JavaScript", "TypeScript", "React", "Redux", "React Native", "HTML", "CSS", "SCSS", "Firebase" ]
+    },
+    {
+      title: "BACK-END",
+      description: [ "Node", "Express", "REST", "GraphQL", "Apollo"]
+    },
+    {
+      title: "DATABASE", 
+      description: ["Firebase", "MongoDB"]
+    },
+    {
+      title: "TESTING",
+      description: ["Jest", "Enzyme"]
+    }, 
+    {
+      title: "SOURCE-CONTROL",
+      description: ["Git", "Github", "SCRUM", "Agile" ]
     }
   ]
 }

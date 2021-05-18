@@ -65,10 +65,11 @@ export const styles = () => createStyles({
   // Resume Page
   ResumeTimeline: {
     margin: '25px',
-    width: '95%',
+    // width: '95%',
   },
   Section: {
     // border: '1px solid black'
+    width: '95%',
   }, 
   SectionTitle: {
     position: 'relative',
@@ -112,5 +113,65 @@ export const styles = () => createStyles({
     color: 'gray',
     fontSize: '12px',
     marginTop: '6px',
-  }
+  },
+
+
+  // My Services
+  ServicesSection: {
+    padding: "30px",
+  },
+  Service: {
+    height: "100%",
+    textAlign: "center",
+  },
+  ServiceIcon: {
+    color: "darkslategray",
+    fontWeight: 300,
+    marginRight: "5px"
+  }, 
+  ServiceTitle: {
+    fontSize: "16px",
+    fontWeight: 500,
+    lineHeight: '35px',
+    textAlign: 'center',
+  }, 
+  ServiceDescription: {
+    color: '#989898',
+    borderColor: '#ffc500',
+    // marginRight: "5px",
+    textAlign: "center"
+  }, 
+
+
+  // My Skills
+  SkillsSection: {
+    width: "95%",
+    marginLeft: "15px", 
+    marginRight: "15px", 
+  }, 
+  Skill: {
+    borderRadius: "8px",
+    padding: "20px",
+    boxShadow: "0px 0px 48px 0px rgba(4,6,4,0.08)",
+    minHeight: "186px",
+    height: "100%",
+  }, 
+  SkillTitle: {
+    fontSize: "14px",
+    fontWeight: 500,
+    lineHeight: "35px",
+  },
+  SkillDescription: {
+    display: "flex",
+    alignItems: "center",
+    color: "#989898",
+    fontWeight: 400,
+    lineHeight: "18px",
+  },
+  SkillTimelineDot: {
+    borderColor: '#ffc500',
+    padding: "2px",
+    marginRight: "5px"
+  }, 
+
 })
