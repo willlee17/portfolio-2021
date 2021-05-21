@@ -5,6 +5,8 @@ import DashboardOutlinedIcon from '@material-ui/icons/DashboardOutlined';
 import BuildOutlinedIcon from '@material-ui/icons/BuildOutlined';
 import AccountTreeOutlinedIcon from '@material-ui/icons/AccountTreeOutlined';
 
+import computer from '../assets/images/computer.jpeg'
+
 export default {
   name: 'William Lee', 
   title: 'Frontend Developer',
@@ -96,5 +98,38 @@ export default {
       title: "SOURCE-CONTROL",
       description: ["Git", "Github", "SCRUM", "Agile" ]
     }
+  ],
+
+  projects: [
+    {
+      title: 'Newsfeeder',
+      caption: "Short caption", 
+      description: 'Project description Project description Project description Project description Project description Project description ',
+      links: [
+        {link: 'https://github.com/willlee17', icon: <GitHubIcon />}, 
+        {link: 'https://github.com/willlee17', icon: <GitHubIcon />}, 
+      ],
+      image: computer,
+    }, 
+    {
+      title: 'CRM Ticket Manager',
+      caption: "Short caption", 
+      description: 'Project description Project description Project description Project description Project description Project description ',
+      links: [
+        {link: 'https://github.com/willlee17', icon: <GitHubIcon />}, 
+        {link: 'https://github.com/willlee17', icon: <GitHubIcon />}, 
+      ],
+      image: computer,
+    }, 
+    {
+      title: 'Uber - React Native',
+      caption: "Short caption", 
+      description: 'Project description Project description Project description Project description Project description Project description ',
+      links: [
+        {link: 'https://github.com/willlee17', icon: <GitHubIcon />}, 
+        {link: 'https://github.com/willlee17', icon: <GitHubIcon />}, 
+      ],
+      image: computer,
+    }, 
   ]
 }

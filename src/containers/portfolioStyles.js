@@ -174,4 +174,55 @@ export const styles = () => createStyles({
     marginRight: "5px"
   }, 
 
+
+
+  //Portfolio styles
+  ProjectsContainer: {
+    marginTop: 30,
+    marginLeft: 15,
+  },
+  CustomCard: {
+    height: '100%',
+    // maxWidth: 200,
+    // minWidth: 250,
+    boxShadow: "0px 0px 48px 0px rgba(4,6,4,0.08)",
+    borderRadius: 5,
+    overflow: 'hidden',
+    outlineWidth: 0
+  }, 
+  CustomCardImage: {
+    height: 140, 
+  },  
+  CustomCardTitle: {
+    fontWeight: 500
+  },
+  CustomCardCaption: {
+    color: 'darkslategray',
+    fontWeight: 300
+  },
+
+  // ProjectDialog: {
+  //   display: 'flex',
+  //   alignItems: 'center',
+  //   justifyContent: 'center', 
+  //   maxWidth: 800
+  // },
+  ProjectDialogImage: {
+    maxHeight: 300,
+    width: '100%',
+    objectFit: 'cover',
+    objectPosition: 'center center'
+  }, 
+  ProjectDialogDesc: {
+    marginTop: 10
+  }, 
+  ProjectDialogActions: {
+    justifyContent: 'center',
+    marginBottom: 10
+  },
+  ProjectDialogIcon: {
+    color: 'darkslategray',
+    margin: '0px 12px',
+    cursor: 'pointer',
+  }
 })
